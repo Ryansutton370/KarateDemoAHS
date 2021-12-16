@@ -1,0 +1,36 @@
+{
+    "loginPage": {
+        "usernameInput": "#input-username",
+        "passwordInput": "#input-password",
+        "testUsername": "demo",
+        "testPassword": "demo",
+        "loginBtn": "//button[@type='submit']"
+    },
+    "dashboardPage": {
+        "catalogDropdown": "//li[@id='menu-catalog']", 
+        "logoutBtn": "//span[contains(text(),'Logout')]/..", 
+        "dashboardHeading": "//h1",
+        "categoriesLink": "//li[@id='menu-catalog']//a[contains(text(),'Categories')]"
+    },
+    "categoriesPage": {
+        "addNewBtn": "//a[@data-original-title='Add New']",
+        "deleteBtn": "//button[@class='btn btn-danger']",
+        "camerasCheckbox": "//td[contains(text(),'Cameras')]/..//input[@type='checkbox']"
+    },
+    "addCategoryPage": {
+        "generalTab": "//a[contains(text(),'General')]",
+        "dataTab": "//a[contains(text(),'Data')]",
+        "seoTab": "//a[@data-toggle='tab'][contains(text(),'SEO')]",
+        "designTab": "//a[@data-toggle='tab'][contains(text(),'Design')]",
+
+        "categoryNameInput": "#input-name1",
+        "descriptionInput": "//div[@class='note-editable panel-body']",
+        "descriptionContent" : "//div[@class='note-editable panel-body']/p", 
+        "keywordInput": "//input[@placeholder='Keyword']",
+        "saveBtn": "//button[@type='submit']", 
+        "permissionAlert": "//div[@class='alert alert-danger alert-dismissible']", 
+        "permissionAlertExitBtn": "//div[@class='alert alert-danger alert-dismissible']//button[@class='close']"
+
+
+    }
+}
